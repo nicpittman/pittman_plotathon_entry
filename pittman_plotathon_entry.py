@@ -5,6 +5,7 @@ Created on Tue Nov  9 15:50:04 2021
 For DataTas Plot-A-Thon!
 @author: Nic Pittman
 """
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -24,12 +25,9 @@ print('Variables\n---------')
 print(list(combined_df))
 
 
-
-
 # %% Algorithm to find the countries of citizenship that climb each mountain. 
 # There may be a more elegant pandas join solution to do this? But i dont know it. 
-# But lets try brute force method!!!!
-# Oh oops this definitely turned into a monster. Better solution to saving the output in Xarray? 
+# But lets try brute force method!!! This definitely turned into a monster. Better solution to saving the output in Xarray? 
 
 peaks_by_climbers=members.groupby(by='peak_name').groups
 citizenship_per_mountain_holder=[] # Holder list to concat our pandas series
@@ -84,7 +82,7 @@ def himalayanPlotter(df,
           
     #     heatmap = ax.pcolormesh(df, cmap=plt.cm.Reds,norm=norm)
     # else:
-    heatmap = ax.pcolormesh(df, cmap=plt.cm.Reds)
+    heatmap = ax.pcolormesh(df, cmap=plt.cm.Blues)
     plt.colorbar(heatmap,ax=ax)#,extend='max')   
     ax.set_yticks(np.arange(df.shape[0]) + 0.5, minor=False)
     ax.set_xticks(np.arange(df.shape[1]) + 0.5, minor=False)
