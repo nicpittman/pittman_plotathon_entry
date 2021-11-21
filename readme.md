@@ -16,4 +16,4 @@ Requires Numpy, Pandas and matplotlib.
 
 Which produces my entry:
 
-```![PittmanHimalyanEntry](https://github.com/nicpittman/pittman_plotathon_entry/blob/main/PittmanHimalyanEntry.png)
+![PittmanHimalyanEntry](https://github.com/nicpittman/pittman_plotathon_entry/blob/main/PittmanHimalyanEntry.png?raw=true)
