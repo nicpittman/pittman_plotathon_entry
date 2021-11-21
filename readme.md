@@ -8,7 +8,7 @@ As you can see, Nepal is successful at climing many mountains. India has had som
 
 
 Script can be run like
-Create these by running
+Create these by running:
 
 ```python pittman_plotathon_entry.py```
 
